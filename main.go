@@ -5,11 +5,11 @@ import (
 
 	"net/http"
 
+	"github.com/Maow-Nam/read-api/config"
+	"github.com/Maow-Nam/read-api/routes"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/labstack/gommon/log"
-	"gitlab.odds.team/OddsRead/api/config"
-	"gitlab.odds.team/OddsRead/api/routes"
 )
 
 func main() {
