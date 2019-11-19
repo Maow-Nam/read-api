@@ -9,7 +9,7 @@ type Book struct {
 	Isbn      	string        	`json:"isbn" bson:"isbn"`
 	Title     	string        	`json:"title" bson:"title"`
 	Author    	[]string      	`json:"author" bson:"Author"`
-	Publisher 	Publisher     	`json:"publisher" bson:"Publisher"`
+	Publisher 	string     	`json:"publisher" bson:"Publisher"`
 	ImgURL    	string        	`json:"imgURL" bson:"imgURL"`
 	Tags		[]bson.ObjectId `json:"tags" bson:"tags"`
 
